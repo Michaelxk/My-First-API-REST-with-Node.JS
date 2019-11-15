@@ -1,0 +1,20 @@
+{
+  "name": "rest-api-node-fatz",
+  "version": "1.0.0",
+  "description": "Creacion de API REST con Node.JS ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Michael Linares",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "node-fetch": "^2.6.0",
+    "underscore": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
